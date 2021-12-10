@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/doctori-salud/static/css/main.2a209a5a.chunk.css",
+    "main.js": "/doctori-salud/static/js/main.96fca4bc.chunk.js",
+    "main.js.map": "/doctori-salud/static/js/main.96fca4bc.chunk.js.map",
+    "runtime-main.js": "/doctori-salud/static/js/runtime-main.7f8083c7.js",
+    "runtime-main.js.map": "/doctori-salud/static/js/runtime-main.7f8083c7.js.map",
+    "static/js/2.7c425139.chunk.js": "/doctori-salud/static/js/2.7c425139.chunk.js",
+    "static/js/2.7c425139.chunk.js.map": "/doctori-salud/static/js/2.7c425139.chunk.js.map",
+    "static/js/3.1f1712a9.chunk.js": "/doctori-salud/static/js/3.1f1712a9.chunk.js",
+    "static/js/3.1f1712a9.chunk.js.map": "/doctori-salud/static/js/3.1f1712a9.chunk.js.map",
+    "index.html": "/doctori-salud/index.html",
+    "static/css/main.2a209a5a.chunk.css.map": "/doctori-salud/static/css/main.2a209a5a.chunk.css.map",
+    "static/js/2.7c425139.chunk.js.LICENSE.txt": "/doctori-salud/static/js/2.7c425139.chunk.js.LICENSE.txt",
+    "static/media/doctori-logo-white.9fd1d083.svg": "/doctori-salud/static/media/doctori-logo-white.9fd1d083.svg",
+    "static/media/mutua-madrilena.3fd6434a.jpg": "/doctori-salud/static/media/mutua-madrilena.3fd6434a.jpg",
+    "static/media/pose-1-b.0c48a409.png": "/doctori-salud/static/media/pose-1-b.0c48a409.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7f8083c7.js",
+    "static/js/2.7c425139.chunk.js",
+    "static/css/main.2a209a5a.chunk.css",
+    "static/js/main.96fca4bc.chunk.js"
+  ]
+}
