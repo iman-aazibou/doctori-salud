@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.scss";
+
+import styled from "styled-components";
+import React from "react";
+
+import Header from "../src/Components/Header/Header";
+import Body from "../src/Components/Body/Body";
+import InsuranceLogos from "./Components/InsuranceLogos/InsuranceLogos";
+
+const InsuranceLogoDesktop = styled.div`
+  @media only screen and (max-width: 600px) {
+    display: none;
+  }
+`;
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <React.Fragment className="App">
+      <Header />
+      <Body />
+      <InsuranceLogoDesktop>
+        <InsuranceLogos />
+      </InsuranceLogoDesktop>
+    </React.Fragment>
   );
 }
 

@@ -1,0 +1,97 @@
+.form-content {
+  display: flex;
+  .sectionOne {
+    width: 70%;
+    padding: 10px;
+    text-align: center;
+    .inputs-section-one {
+      display: flex;
+      justify-content: space-between;
+      input {
+        padding: 10px;
+        border: 1px solid grey;
+        border-radius: 10px;
+      }
+    }
+    .checkbox-container {
+      padding-top: 2vh;
+      display: flex;
+      input[type="checkbox"] {
+        // position: absolute;
+        height: 40px;
+        width: 40px;
+      }
+
+      label {
+        position: relative;
+        top: 2vh;
+        font-size: 8px;
+      }
+    }
+  }
+
+  .sectionTwo {
+    position: relative;
+    top: -15px;
+    .section-two-content {
+      display: flex;
+      position: relative;
+      padding: 10px;
+    }
+
+    label {
+      position: relative;
+      top: -5px;
+    }
+    input {
+      padding: 10px;
+      border: 1px solid grey;
+      border-radius: 10px;
+    }
+
+    .plus-and-minus {
+      background-color: aqua;
+      display: flex;
+      width: 100%;
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  
+
+  .form-content .sectionOne .checkbox-container input[type="checkbox"] {
+    height: 25px;
+    width: 25px;
+}
+
+  .form-content .sectionOne {
+    width: 100%;
+    padding: 0;
+  }
+
+  .form-content .sectionOne .inputs-section-one {
+    display: block;
+    input {
+      width: 100%;
+      margin: 2px 0;
+    }
+  }
+
+  .sectionTwo {
+    display: none;
+  }
+  .form-content .sectionOne .checkbox-container{
+    padding-top: 5vh;
+  }
+  .form-content .sectionOne .checkbox-container label {
+    font-size: 10px;
+    position: relative;
+    top: -10px;
+    width: 90%;
+    padding: 10px;
+    text-align: justify;
+  }
+
+ 
+}

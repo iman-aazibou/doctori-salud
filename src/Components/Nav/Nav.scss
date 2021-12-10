@@ -1,0 +1,34 @@
+.nav {
+  position: relative;
+  left: 7em;
+  display: flex;
+  justify-items: center;
+  vertical-align: middle;
+  align-items: center;
+  ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 28em;
+  }
+  li {
+    color: #ffffff;
+    font-size: 15px;
+    vertical-align: middle;
+    position: relative;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .responsive-hamburguer-nav {
+    display: block;
+    font-size: 35px;
+    color: #ffffff;
+    position: relative;
+    left: 1em;
+  }
+
+  .nav {
+    display: none;
+  }
+}

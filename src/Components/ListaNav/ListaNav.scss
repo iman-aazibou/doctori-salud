@@ -1,0 +1,122 @@
+.grid-checkboxes {
+  background-color: aqua;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: start;
+  width: 20px;
+
+  .container input {
+    display: inline;
+  }
+  .container p {
+    display: inline;
+  }
+}
+
+// .listas-grid {
+//   display: flex;
+//   justify-content: center;
+//   margin: 0 auto;
+//   width: 100%;
+// }
+
+// .grid-checkboxes {
+//   background-color: #ffffff;
+//   border: 1px solid grey;
+//   border-radius: 20px;
+//   display: flex;
+//   justify-content: space-between;
+//   margin: 3vh;
+//   margin-bottom: 5vh;
+//   text-align: center;
+//   width: 88%;
+// }
+
+// .container:hover {
+//   background-color: navy;
+//   border-radius: 30px;
+//   width: 65%;
+//   margin: 0px 50px;
+//   color: #ffffff;
+//   font-weight: bold;
+// }
+
+// .container input {
+//   position: absolute;
+//   opacity: 0;
+//   cursor: pointer;
+//   height: 0;
+//   width: 0;
+// }
+
+// .container {
+//   padding: 10px;
+//   position: relative;
+//   display: flex;
+//   justify-content: space-between;
+//   width: 100%;
+//   p {
+//     position: relative;
+//     left: 3vw;
+//     vertical-align: baseline;
+//   }
+// }
+
+// /* Create a custom checkbox */
+// .checkmark {
+//   position: absolute;
+//   height: 20px;
+//   width: 20px;
+//   border: 1px solid grey;
+//   border-radius: 15px;
+// }
+
+// /* On mouse-over, add a grey background color */
+// .container:hover input ~ .checkmark {
+//   background-color: #ffffff;
+// }
+
+// /* When the checkbox is checked, add a blue background */
+// .container input:checked ~ .checkmark {
+//   background-color: #2196f3;
+// }
+
+// @media only screen and (max-width: 600px) {
+//   .listas-grid {
+//     padding: 3vh 0px;
+//   }
+//   .grid-checkboxes {
+//     padding: 2vh 0px;
+//     background-color: #ffffff;
+//     margin: 0;
+//     border: none;
+//     border-radius: 0;
+//     width: 100%;
+//     display: grid;
+//     grid-template-columns: 1fr 1fr 1fr;
+//     label {
+//       margin: 0;
+//       text-align: center;
+//       text-align: center;
+//       justify-content: center;
+//       align-items: center;
+//       .checkmark {
+//         left: 25px;
+//       }
+//       p {
+//         left: 15px;
+//       }
+//     }
+//   }
+//   .container:hover {
+//     background-color: navy;
+//     border-radius: 20px;
+//     width: 75%;
+//     margin: 0px 20px;
+//     color: #ffffff;
+//     font-weight: bold;
+//     p {
+//       left: 20px;
+//     }
+//   }
+// }

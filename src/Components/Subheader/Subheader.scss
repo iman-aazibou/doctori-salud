@@ -1,0 +1,41 @@
+.subheader {
+  display: flex;
+  justify-content: space-between;
+  background-color: #01b0eb;
+  margin-top: 1px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  h1 {
+    position: relative;
+    left: 2em;
+    font-size: 3em;
+  }
+}
+
+.doctori-container {
+  position: relative;
+  right: 8em;
+}
+
+@media only screen and (max-width: 600px) {
+  .header-container {
+    h1 {
+      font-size: 1.5em;
+      left: 1em;
+      top: -40px;
+    }
+  }
+  .doctori-container img {
+    width: 155%;;
+    
+  }
+
+  .category-tags {
+    padding-top: 3vh;
+  }
+}

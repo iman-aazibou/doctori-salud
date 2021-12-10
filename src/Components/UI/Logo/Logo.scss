@@ -1,0 +1,11 @@
+.logo {
+  position: relative;
+  left: 5em;
+}
+
+@media only screen and (max-width: 600px) {
+  .logo {
+left: 0.5em;
+    text-align: center;
+  }
+}

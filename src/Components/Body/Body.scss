@@ -1,0 +1,39 @@
+.category-tags {
+  display: flex;
+  justify-content: center;
+  background-color: #01b0eb;
+  position: relative;
+}
+
+.category-tags div {
+  border-radius: 10px 10px 0 0;
+  background-color: lightblue;
+  padding: 10px;
+  width: 25em;
+  line-height: 4vh;
+  text-align: center;
+  margin: 0 5px 0 5px;
+  vertical-align: middle;
+}
+
+.category-tags div p {
+  vertical-align: middle;
+  font-size: 25px;
+}
+
+.insuranceLogo-responsive .insurance-logos-container {
+  width: 20px;
+}
+
+.category-container {
+  background-color: rgb(245, 242, 242);
+  padding: 3vh;
+}
+
+//RESPONSIVE
+
+@media only screen and (max-width: 600px) {
+  .category-container {
+    padding: 0;
+  }
+}

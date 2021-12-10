@@ -1,0 +1,17 @@
+.responsive-hamburguer-nav-container {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .responsive-hamburguer-nav-container {
+    display: block;
+    color: #ffffff;
+    position: relative;
+    left: 0.5em;
+    font-size: 40px;
+  }
+  .responsive-hamburguer-nav-container i {
+    display: inline;
+    vertical-align: middle;
+  }
+}
