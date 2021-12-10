@@ -10,7 +10,7 @@ const Body = () => {
     <React.Fragment>
       <Subheader />
       <div className="category-container">
-        <ListaNav />
+        {/* <ListaNav /> */}
         <Seguros />
       </div>
     </React.Fragment>
